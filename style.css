@@ -1,0 +1,66 @@
+body {
+  background-color: #FFFBD4;
+}
+
+.container {
+  background-color: #FFFEF0;
+  display: flex;
+  width: 96%;
+  margin: 0 auto; /*가로 중앙 정렬*/
+  height:93vh;
+  margin-top:30px;
+  justify-content: space-between; /* 좌우 양끝에 배치! */
+  align-items: center;   
+
+}
+.left-box {
+  align-self: flex-start; 
+}
+
+.right-box{
+  padding:40px;
+}
+
+.card {
+  display: block;
+  padding: 40px;
+  background-color:white;
+  border-radius:5%;
+  height:555px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+#star {
+  display:block;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-top: -70px; 
+  margin-right:10px;
+  filter: grayscale(100%);
+  cursor: pointer;
+
+}
+.img {
+  object-fit: cover;
+
+}
+
+h1 {
+  font-family: 'Lobster';
+  padding-left:50px;
+  padding-top:30px;
+  font-size: 60px;
+}
+
+.content {
+  font-family: 'Dongle';
+  padding-left:50px;
+  padding-top:30px;
+  font-size:30px;
+}
+.content2{
+  font-family: 'Dongle';
+  font-size: 22px;
+}
